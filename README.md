@@ -1,5 +1,5 @@
-张开涛源项目，此处增加了自己本地的一些测试
-<h2 style="font-size: 14px;"><a href="http://jinnianshilongnian.iteye.com/blog/2018398" target="_blank">Shiro目录</a> | <a href="http://jinnianshilongnian.iteye.com/blog/2018398" target="_blank">点击下载PDF版</a></h2>
+来源张开涛shiro-example项目，增加本地些测试
+
 <p style="font-size: 14px;"><a href="#" target="_blank">第一章&nbsp; Shiro简介</a></p>
 <p style="font-size: 14px;"><a href="#" target="_blank">第二章&nbsp; 身份验证</a></p>
 <p style="font-size: 14px;"><a href="#" target="_blank">第三章&nbsp; 授权</a></p>
