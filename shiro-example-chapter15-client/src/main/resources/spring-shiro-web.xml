@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <!-- 缓存管理器 使用Ehcache实现 -->
+    <bean id="cacheManager" class="org.apache.shiro.cache.ehcache.EhCacheManager">
+        <property name="cacheManagerConfigFile" value="classpath:ehcache.xml"/>
+    </bean>
+
+    <!-- 凭证匹配器 -->
+    <bean id="credentialsMatcher" class="com.github.zhangkaitao.shiro.chapter15.credentials.RetryLimitHashedCredentialsMatcher">
+        <constructor-arg ref="cacheManager"/>
+        <property name="hashAlgorithmName" value="md5"/>
+        <property name="hashIterations" value="2"/>
+        <property name="storedCredentialsHexEncoded" value="true"/>
+    </bean>
+
+
+    <bean id="casRealm" class="com.github.zhangkaitao.shiro.chapter15.realm.MyCasRealm">
+        <property name="userService" ref="userService"/>
+        <property name="cachingEnabled" value="true"/>
+        <property name="authenticationCachingEnabled" value="true"/>
+        <property name="authenticationCacheName" value="authenticationCache"/>
+        <property name="authorizationCachingEnabled" value="true"/>
+        <property name="authorizationCacheName" value="authorizationCache"/>
+        <!--casServerUrlPrefix：是CAS Server服务器端地址；
+            casService：是当前应用CAS服务URL，即用于接收并处理登录成功后的Ticket的；-->
+        <property name="casServerUrlPrefix" value="https://localhost:8443/chapter15-server"/>
+        <property name="casService" value="https://localhost:9443/chapter15-client/cas"/>
+    </bean>
+
+    <!--
+    如果角色/权限信息是由服务器端提供的话，我们可以直接使用shiro提供的CasRealm
+    <bean id="casRealm" class="org.apache.shiro.cas.CasRealm">-->
+        <!--<property name="cachingEnabled" value="true"/>-->
+        <!--<property name="authenticationCachingEnabled" value="true"/>-->
+        <!--<property name="authenticationCacheName" value="authenticationCache"/>-->
+        <!--<property name="authorizationCachingEnabled" value="true"/>-->
+        <!--<property name="authorizationCacheName" value="authorizationCache"/>-->
+  <!--defaultRoles/ defaultPermissions：
+  默认添加给所有CAS登录成功用户的角色和权限信息
+  如果没有给定权限的话，就使用这里默认的，即所有登录用户都会拥有这些角色和权限-->
+        <!--<property name="defaultRoles" value="admin,user"/>-->
+        <!--<property name="defaultPermissions" value="user:create,user:update"/>-->
+    <!---roleAttributeNames/ permissionAttributeNames得到Attributes中的角色/权限数据
+    当角色权限是从服务端返回的话，从这个地方接收到再处理-->
+    <!--<property name="roleAttributeNames" value="roles"/>-->
+        <!--<property name="permissionAttributeNames" value="permissions"/>-->
+        <!--<property name="casServerUrlPrefix" value="https://localhost:8443/chapter14-server"/>-->
+        <!--<property name="casService" value="https://localhost:9443/chapter14-client/cas"/>-->
+    <!--</bean>-->
+
+
+
+    <!-- 会话ID生成器 -->
+    <bean id="sessionIdGenerator" class="org.apache.shiro.session.mgt.eis.JavaUuidSessionIdGenerator"/>
+
+    <!-- 会话Cookie模板 -->
+    <bean id="sessionIdCookie" class="org.apache.shiro.web.servlet.SimpleCookie">
+        <constructor-arg value="sid"/>
+        <property name="httpOnly" value="true"/>
+        <property name="maxAge" value="-1"/>
+    </bean>
+
+    <bean id="rememberMeCookie" class="org.apache.shiro.web.servlet.SimpleCookie">
+        <constructor-arg value="rememberMe"/>
+        <property name="httpOnly" value="true"/>
+        <property name="maxAge" value="2592000"/><!-- 30天 -->
+    </bean>
+
+    <!-- rememberMe管理器 -->
+    <bean id="rememberMeManager" class="org.apache.shiro.web.mgt.CookieRememberMeManager">
+        <!-- rememberMe cookie加密的密钥 建议每个项目都不一样 默认AES算法 密钥长度（128 256 512 位）-->
+        <property name="cipherKey"
+                  value="#{T(org.apache.shiro.codec.Base64).decode('4AvVhmFLUs0KTA3Kprsdag==')}"/>
+        <property name="cookie" ref="rememberMeCookie"/>
+    </bean>
+
+    <!-- 会话DAO -->
+    <bean id="sessionDAO" class="org.apache.shiro.session.mgt.eis.EnterpriseCacheSessionDAO">
+        <property name="activeSessionsCacheName" value="shiro-activeSessionCache"/>
+        <property name="sessionIdGenerator" ref="sessionIdGenerator"/>
+    </bean>
+
+    <!-- 会话验证调度器 -->
+    <bean id="sessionValidationScheduler" class="org.apache.shiro.session.mgt.quartz.QuartzSessionValidationScheduler">
+        <property name="sessionValidationInterval" value="1800000"/>
+        <property name="sessionManager" ref="sessionManager"/>
+    </bean>
+
+    <!-- 会话管理器 -->
+    <bean id="sessionManager" class="org.apache.shiro.web.session.mgt.DefaultWebSessionManager">
+        <property name="globalSessionTimeout" value="1800000"/>
+        <property name="deleteInvalidSessions" value="true"/>
+        <property name="sessionValidationSchedulerEnabled" value="true"/>
+        <property name="sessionValidationScheduler" ref="sessionValidationScheduler"/>
+        <property name="sessionDAO" ref="sessionDAO"/>
+        <property name="sessionIdCookieEnabled" value="true"/>
+        <property name="sessionIdCookie" ref="sessionIdCookie"/>
+    </bean>
+
+    <bean id="casSubjectFactory" class="org.apache.shiro.cas.CasSubjectFactory"/>
+    <!-- 安全管理器 -->
+    <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <property name="realm" ref="casRealm"/>
+        <property name="sessionManager" ref="sessionManager"/>
+        <property name="cacheManager" ref="cacheManager"/>
+        <property name="rememberMeManager" ref="rememberMeManager"/>
+        <property name="subjectFactory" ref="casSubjectFactory"/>
+    </bean>
+
+    <!-- 相当于调用SecurityUtils.setSecurityManager(securityManager) -->
+    <bean class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+        <property name="staticMethod" value="org.apache.shiro.SecurityUtils.setSecurityManager"/>
+        <property name="arguments" ref="securityManager"/>
+    </bean>
+    <!--用来验证服务器端返回的CAS Service Ticket-->
+    <bean id="casFilter" class="org.apache.shiro.cas.CasFilter">
+        <property name="failureUrl" value="/casFailure.jsp"/>
+    </bean>
+
+    <!-- Shiro的Web过滤器 在web.xml中做了配置
+    主导流程线-->
+    <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+        <property name="securityManager" ref="securityManager"/>
+        <!--服务端的登录地址，后面的参数service的值为客户端的回调地址，此地址进行客户端的验证额登录，在casRealm bean里有配置-->
+        <property name="loginUrl" value="https://localhost:8443/chapter15-server/login?service=https://localhost:9443/chapter15-client/cas"/>
+        <property name="successUrl" value="/"/>
+        <!--类似shiro.ini里的[filters]-->
+        <property name="filters">
+            <util:map>
+                <entry key="cas" value-ref="casFilter"/>
+            </util:map>
+        </property>
+        <!--类似shiro.ini里的[urls]-->
+        <property name="filterChainDefinitions">
+            <value>
+                /casFailure.jsp = anon
+                /cas = cas
+                /logout = logout
+                /** = user
+            </value>
+        </property>
+    </bean>
+
+    <!-- Shiro生命周期处理器-->
+    <bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor"/>
+
+</beans>

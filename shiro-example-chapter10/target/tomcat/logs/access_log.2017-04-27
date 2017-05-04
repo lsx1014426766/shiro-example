@@ -1,0 +1,8 @@
+127.0.0.1 - - [27/Apr/2017:16:13:47 +0800] "GET /chapter10/ HTTP/1.1" 500 4432 http-bio-8080-exec-2 6345
+127.0.0.1 - - [27/Apr/2017:16:15:55 +0800] "GET /chapter10/ HTTP/1.1" 200 137 http-bio-8080-exec-1 2135
+127.0.0.1 - - [27/Apr/2017:16:28:29 +0800] "GET /chapter10/login.jsp HTTP/1.1" 200 348 http-bio-8080-exec-3 4733
+127.0.0.1 - - [27/Apr/2017:16:29:05 +0800] "POST /chapter10/login.jsp HTTP/1.1" 200 348 http-bio-8080-exec-4 55
+127.0.0.1 - - [27/Apr/2017:16:30:14 +0800] "POST /chapter10/login.jsp HTTP/1.1" 302 - http-bio-8080-exec-6 337
+127.0.0.1 - - [27/Apr/2017:16:30:14 +0800] "GET /chapter10/ HTTP/1.1" 200 169 http-bio-8080-exec-7 90
+127.0.0.1 - - [27/Apr/2017:16:31:51 +0800] "GET /chapter10/logout HTTP/1.1" 302 - http-bio-8080-exec-9 374
+127.0.0.1 - - [27/Apr/2017:16:31:51 +0800] "GET /chapter10/ HTTP/1.1" 200 137 http-bio-8080-exec-10 78

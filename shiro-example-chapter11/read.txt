@@ -1,0 +1,11 @@
+11章
+http://jinnianshilongnian.iteye.com/blog/2029217
+Shiro提供了类似于Spring的Cache抽象，即Shiro本身不实现Cache，但是对Cache进行了又抽象，方便更换不同的底层Cache实现
+Realm缓存
+
+Shiro提供了CachingRealm，其实现了CacheManagerAware接口，提供了缓存的一些基础实现；另外AuthenticatingRealm及AuthorizingRealm分别提供了对AuthenticationInfo 和AuthorizationInfo信息的缓存
+UserRealm还提供了clearAllCachedAuthorizationInfo、clearAllCachedAuthenticationInfo、clearAllCache，用于清空整个缓存。
+
+
+
+在某些清空下这种方式可能不是最好的选择，可以考虑直接废弃Shiro的缓存，然后自己通过如AOP机制实现自己的缓存；可以参考：

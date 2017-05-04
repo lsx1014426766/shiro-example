@@ -1,0 +1,7 @@
+com\github\zhangkaitao\shiro\chapter7\web\servlet\PermissionServlet.class
+com\github\zhangkaitao\shiro\chapter7\web\servlet\AuthenticatedServlet.class
+com\github\zhangkaitao\shiro\chapter7\web\servlet\UnAuthorizedServlet.class
+com\github\zhangkaitao\shiro\chapter7\web\servlet\LogoutServlet.class
+com\github\zhangkaitao\shiro\chapter7\web\servlet\RoleServlet.class
+com\github\zhangkaitao\shiro\chapter7\web\servlet\LoginServlet.class
+com\github\zhangkaitao\shiro\chapter7\web\servlet\FormFilterLoginServlet.class
