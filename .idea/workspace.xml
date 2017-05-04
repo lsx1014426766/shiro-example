@@ -1,115 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f39ce79-83bf-45d8-8bab-1f5c9f33ecc3" name="Default" comment="加注释">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter10/read.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter10/shiro-example-chapter10.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter11/read.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter11/shiro-example-chapter11.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter12/read.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter12/shiro-example-chapter12.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter13/read.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter13/shiro-example-chapter13.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter14/read.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter14/shiro-example-chapter14.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter15-client/read.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter15-client/shiro-example-chapter15-client.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter15-server/read.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter15-server/shiro-example-chapter15-server.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter16/shiro-example-chapter16.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter17-client/shiro-example-chapter17-client.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter17-server/shiro-example-chapter17-server.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter18/shiro-example-chapter18.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter19/shiro-example-chapter19.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter2/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter2/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter2/.idea/dictionaries/lsx.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter2/.idea/libraries/Maven__com_alibaba_druid_0_2_23.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter2/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter2/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter2/.idea/libraries/Maven__junit_junit_4_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter2/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter2/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter2/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter2/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter2/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter2/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter2/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter20/shiro-example-chapter20.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter21/shiro-example-chapter21.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter22/shiro-example-chapter22.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter23-app1/shiro-example-chapter23-app1.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter23-app2/shiro-example-chapter23-app2.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter23-client/shiro-example-chapter23-client.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter23-core/shiro-example-chapter23-core.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter23-nginx/shiro-example-chapter23-nginx.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter23-pom/shiro-example-chapter23-pom.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter23-server/shiro-example-chapter23-server.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter24/shiro-example-chapter24.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter6/read.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter6/shiro-example-chapter6.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter7/read.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter7/shiro-example-chapter7.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter8/read.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter8/shiro-example-chapter8.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter9/read.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example-chapter9/shiro-example-chapter9.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shiro-example.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter10/pom.xml" afterPath="$PROJECT_DIR$/shiro-example-chapter10/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter10/src/main/java/com/github/zhangkaitao/shiro/chapter10/JdbcTemplateUtils.java" afterPath="$PROJECT_DIR$/shiro-example-chapter10/src/main/java/com/github/zhangkaitao/shiro/chapter10/JdbcTemplateUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter10/src/main/java/com/github/zhangkaitao/shiro/chapter10/session/scheduler/MySessionValidationScheduler.java" afterPath="$PROJECT_DIR$/shiro-example-chapter10/src/main/java/com/github/zhangkaitao/shiro/chapter10/session/scheduler/MySessionValidationScheduler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter10/src/main/java/com/github/zhangkaitao/shiro/chapter10/web/listener/MySessionListener1.java" afterPath="$PROJECT_DIR$/shiro-example-chapter10/src/main/java/com/github/zhangkaitao/shiro/chapter10/web/listener/MySessionListener1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter10/src/main/java/com/github/zhangkaitao/shiro/chapter10/web/listener/MySessionListener2.java" afterPath="$PROJECT_DIR$/shiro-example-chapter10/src/main/java/com/github/zhangkaitao/shiro/chapter10/web/listener/MySessionListener2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter10/src/main/resources/shiro-web.ini" afterPath="$PROJECT_DIR$/shiro-example-chapter10/src/main/resources/shiro-web.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter12/pom.xml" afterPath="$PROJECT_DIR$/shiro-example-chapter12/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter12/src/main/java/com/github/zhangkaitao/shiro/chapter12/web/exception/DefaultExceptionHandler.java" afterPath="$PROJECT_DIR$/shiro-example-chapter12/src/main/java/com/github/zhangkaitao/shiro/chapter12/web/exception/DefaultExceptionHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter12/src/main/java/com/github/zhangkaitao/shiro/chapter12/web/mvc/AnnotationController.java" afterPath="$PROJECT_DIR$/shiro-example-chapter12/src/main/java/com/github/zhangkaitao/shiro/chapter12/web/mvc/AnnotationController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter12/src/main/resources/spring-beans.xml" afterPath="$PROJECT_DIR$/shiro-example-chapter12/src/main/resources/spring-beans.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter12/src/main/resources/spring-mvc.xml" afterPath="$PROJECT_DIR$/shiro-example-chapter12/src/main/resources/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter12/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/shiro-example-chapter12/src/main/webapp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter12/src/test/java/com/github/zhangkaitao/shiro/chapter12/ShiroTest.java" afterPath="$PROJECT_DIR$/shiro-example-chapter12/src/test/java/com/github/zhangkaitao/shiro/chapter12/ShiroTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter13/pom.xml" afterPath="$PROJECT_DIR$/shiro-example-chapter13/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter13/src/main/resources/spring-beans.xml" afterPath="$PROJECT_DIR$/shiro-example-chapter13/src/main/resources/spring-beans.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter13/src/main/resources/spring-shiro-web.xml" afterPath="$PROJECT_DIR$/shiro-example-chapter13/src/main/resources/spring-shiro-web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter14/localhost.keystore" afterPath="$PROJECT_DIR$/shiro-example-chapter14/localhost.keystore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter14/pom.xml" afterPath="$PROJECT_DIR$/shiro-example-chapter14/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter14/src/main/resources/spring-shiro-web.xml" afterPath="$PROJECT_DIR$/shiro-example-chapter14/src/main/resources/spring-shiro-web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter15-client/localhost.keystore" afterPath="$PROJECT_DIR$/shiro-example-chapter15-client/localhost.keystore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter15-client/pom.xml" afterPath="$PROJECT_DIR$/shiro-example-chapter15-client/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter15-client/src/main/resources/spring-beans.xml" afterPath="$PROJECT_DIR$/shiro-example-chapter15-client/src/main/resources/spring-beans.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter15-client/src/main/resources/spring-shiro-web.xml" afterPath="$PROJECT_DIR$/shiro-example-chapter15-client/src/main/resources/spring-shiro-web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter15-server/cas.log" afterPath="$PROJECT_DIR$/shiro-example-chapter15-server/cas.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter15-server/localhost.keystore" afterPath="$PROJECT_DIR$/shiro-example-chapter15-server/localhost.keystore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter15-server/perfStats.log" afterPath="$PROJECT_DIR$/shiro-example-chapter15-server/perfStats.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter5/read.txt" afterPath="$PROJECT_DIR$/shiro-example-chapter5/read.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter5/src/sql/shiro-init-data.sql" afterPath="$PROJECT_DIR$/shiro-example-chapter5/src/sql/shiro-init-data.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter5/src/test/java/com/github/zhangkaitao/shiro/chapter5/hash/CodecAndCryptoTest.java" afterPath="$PROJECT_DIR$/shiro-example-chapter5/src/test/java/com/github/zhangkaitao/shiro/chapter5/hash/CodecAndCryptoTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter6/src/main/java/com/github/zhangkaitao/shiro/chapter6/JdbcTemplateUtils.java" afterPath="$PROJECT_DIR$/shiro-example-chapter6/src/main/java/com/github/zhangkaitao/shiro/chapter6/JdbcTemplateUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter6/src/main/java/com/github/zhangkaitao/shiro/chapter6/credentials/RetryLimitHashedCredentialsMatcher.java" afterPath="$PROJECT_DIR$/shiro-example-chapter6/src/main/java/com/github/zhangkaitao/shiro/chapter6/credentials/RetryLimitHashedCredentialsMatcher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter6/src/main/java/com/github/zhangkaitao/shiro/chapter6/dao/PermissionDaoImpl.java" afterPath="$PROJECT_DIR$/shiro-example-chapter6/src/main/java/com/github/zhangkaitao/shiro/chapter6/dao/PermissionDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter6/src/main/java/com/github/zhangkaitao/shiro/chapter6/dao/UserDaoImpl.java" afterPath="$PROJECT_DIR$/shiro-example-chapter6/src/main/java/com/github/zhangkaitao/shiro/chapter6/dao/UserDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter6/src/main/java/com/github/zhangkaitao/shiro/chapter6/entity/User.java" afterPath="$PROJECT_DIR$/shiro-example-chapter6/src/main/java/com/github/zhangkaitao/shiro/chapter6/entity/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter6/src/main/java/com/github/zhangkaitao/shiro/chapter6/realm/MyRealm3.java" afterPath="$PROJECT_DIR$/shiro-example-chapter6/src/main/java/com/github/zhangkaitao/shiro/chapter6/realm/MyRealm3.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter6/src/main/java/com/github/zhangkaitao/shiro/chapter6/realm/UserRealm.java" afterPath="$PROJECT_DIR$/shiro-example-chapter6/src/main/java/com/github/zhangkaitao/shiro/chapter6/realm/UserRealm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter6/src/main/java/com/github/zhangkaitao/shiro/chapter6/service/PasswordHelper.java" afterPath="$PROJECT_DIR$/shiro-example-chapter6/src/main/java/com/github/zhangkaitao/shiro/chapter6/service/PasswordHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter6/src/main/resources/shiro.ini" afterPath="$PROJECT_DIR$/shiro-example-chapter6/src/main/resources/shiro.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter6/src/sql/shiro.sql" afterPath="$PROJECT_DIR$/shiro-example-chapter6/src/sql/shiro.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter6/src/test/java/com/github/zhangkaitao/shiro/chapter6/BaseTest.java" afterPath="$PROJECT_DIR$/shiro-example-chapter6/src/test/java/com/github/zhangkaitao/shiro/chapter6/BaseTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter6/src/test/java/com/github/zhangkaitao/shiro/chapter6/realm/PrincialCollectionTest.java" afterPath="$PROJECT_DIR$/shiro-example-chapter6/src/test/java/com/github/zhangkaitao/shiro/chapter6/realm/PrincialCollectionTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter7/src/main/java/com/github/zhangkaitao/shiro/chapter7/web/servlet/LogoutServlet.java" afterPath="$PROJECT_DIR$/shiro-example-chapter7/src/main/java/com/github/zhangkaitao/shiro/chapter7/web/servlet/LogoutServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter7/src/main/resources/shiro.ini" afterPath="$PROJECT_DIR$/shiro-example-chapter7/src/main/resources/shiro.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter7/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/shiro-example-chapter7/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter8/pom.xml" afterPath="$PROJECT_DIR$/shiro-example-chapter8/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter8/src/main/java/com/github/zhangkaitao/shiro/chapter8/web/filter/AnyRolesFilter.java" afterPath="$PROJECT_DIR$/shiro-example-chapter8/src/main/java/com/github/zhangkaitao/shiro/chapter8/web/filter/AnyRolesFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter8/src/main/java/com/github/zhangkaitao/shiro/chapter8/web/filter/FormLoginFilter.java" afterPath="$PROJECT_DIR$/shiro-example-chapter8/src/main/java/com/github/zhangkaitao/shiro/chapter8/web/filter/FormLoginFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter8/src/main/java/com/github/zhangkaitao/shiro/chapter8/web/filter/MyOncePerRequestFilter.java" afterPath="$PROJECT_DIR$/shiro-example-chapter8/src/main/java/com/github/zhangkaitao/shiro/chapter8/web/filter/MyOncePerRequestFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter8/src/main/resources/shiro.ini" afterPath="$PROJECT_DIR$/shiro-example-chapter8/src/main/resources/shiro.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter8/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/shiro-example-chapter8/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter9/pom.xml" afterPath="$PROJECT_DIR$/shiro-example-chapter9/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter9/src/main/resources/shiro.ini" afterPath="$PROJECT_DIR$/shiro-example-chapter9/src/main/resources/shiro.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter9/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/shiro-example-chapter9/src/main/webapp/index.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/shiro-example-chapter10/src/main/java/com/github/zhangkaitao/shiro/chapter10/session/dao/MySessionDao.java" afterPath="$PROJECT_DIR$/shiro-example-chapter10/src/main/java/com/github/zhangkaitao/shiro/chapter10/session/dao/MySessionDAO.java" />
+    <list default="true" id="8f39ce79-83bf-45d8-8bab-1f5c9f33ecc3" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/shiro-example-chapter5/read.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter15-client/README.md" afterPath="$PROJECT_DIR$/shiro-example-chapter15-client/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro-example-chapter15-server/README.md" afterPath="$PROJECT_DIR$/shiro-example-chapter15-server/README.md" />
     </list>
     <ignored path="shiro-example.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -160,7 +56,108 @@
     <favorites_list name="shiro-example" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiro-example-chapter10/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiro-example-chapter2/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiro-example-chapter3/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiro-example-chapter15-client/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shiro-example-chapter15-client/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiro-example-chapter15-server/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="localhost.keystore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiro-example-chapter15-client/localhost.keystore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deployerConfigContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiro-example-chapter15-server/src/main/webapp/WEB-INF/deployerConfigContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="91" column="37" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiro-example-chapter15-server/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3954">
+              <caret line="205" column="0" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiro-example-chapter5/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -180,11 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/shiro-example-chapter6/read.txt" />
-        <option value="$PROJECT_DIR$/shiro-example-chapter7/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/shiro-example-chapter7/src/main/resources/shiro.ini" />
-        <option value="$PROJECT_DIR$/shiro-example-chapter7/src/main/java/com/github/zhangkaitao/shiro/chapter7/web/servlet/LogoutServlet.java" />
-        <option value="$PROJECT_DIR$/shiro-example-chapter7/read.txt" />
         <option value="$PROJECT_DIR$/shiro-example-chapter8/pom.xml" />
         <option value="$PROJECT_DIR$/shiro-example-chapter8/src/main/resources/shiro.ini" />
         <option value="$PROJECT_DIR$/shiro-example-chapter8/src/main/java/com/github/zhangkaitao/shiro/chapter8/web/filter/MyOncePerRequestFilter.java" />
@@ -231,6 +223,11 @@
         <option value="$PROJECT_DIR$/shiro-example-chapter15-server/src/test/java/org/jasig/cas/WiringTests.java" />
         <option value="$PROJECT_DIR$/shiro-example-chapter15-server/cas.log" />
         <option value="$PROJECT_DIR$/shiro-example-chapter15-client/src/main/resources/spring-shiro-web.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/shiro-example-chapter5/README.md" />
+        <option value="$PROJECT_DIR$/shiro-example-chapter2/README.md" />
+        <option value="$PROJECT_DIR$/shiro-example-chapter15-server/README.md" />
+        <option value="$PROJECT_DIR$/shiro-example-chapter15-client/README.md" />
       </list>
     </option>
   </component>
@@ -368,151 +365,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="shiro-example-chapter15-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shiro-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shiro-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shiro-example-chapter15-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shiro-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shiro-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shiro-example-chapter15-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shiro-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shiro-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shiro-example-chapter15-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shiro-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shiro-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shiro-example-chapter15-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shiro-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shiro-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shiro-example-chapter15-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shiro-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shiro-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shiro-example-chapter15-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="shiro-example-chapter16" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -639,6 +492,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="chapter15" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example-chapter14" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -816,6 +683,146 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example-chapter11" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example-chapter10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example-chapter9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example-chapter8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example-chapter7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example-chapter6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example-chapter5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example-chapter4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example-chapter3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-example-chapter2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane">
@@ -837,11 +844,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\b\shiro\shiro-example\shiro-example-chapter2" />
       <recent name="D:\b\shiro\shiro-example\shiro-example-chapter15-server" />
       <recent name="D:\b\shiro\shiro-example\shiro-example-chapter15-client" />
       <recent name="D:\b\shiro\shiro-example\shiro-example-chapter14" />
       <recent name="D:\b\shiro\shiro-example\shiro-example-chapter5" />
-      <recent name="D:\b\shiro\shiro-example\shiro-example-chapter3" />
     </key>
   </component>
   <component name="RunManager" selected="Maven.jetty15client">
@@ -1350,7 +1357,35 @@
       <option name="project" value="LOCAL" />
       <updated>1493107404606</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="章节目录">
+      <created>1493879540300</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1493879540300</updated>
+    </task>
+    <task id="LOCAL-00006" summary="章节目录">
+      <created>1493879700934</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1493879700934</updated>
+    </task>
+    <task id="LOCAL-00007" summary="说明文件">
+      <created>1493879954813</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1493879954813</updated>
+    </task>
+    <task id="LOCAL-00008" summary="说明文件">
+      <created>1493880290725</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1493880290725</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1395,7 +1430,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1482,7 +1517,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="加注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="加注释" />
+    <MESSAGE value="章节目录" />
+    <MESSAGE value="说明文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="说明文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1581,59 +1618,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shiro-example-chapter13/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-example-chapter13/src/main/webapp/unauthorized.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-example-chapter13/src/main/webapp/authenticated.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-example-chapter13/src/main/resources/spring-shiro-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="121" column="11" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-example-chapter14/localhost.keystore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-example-chapter13/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-example-chapter13/src/main/resources/spring-beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-example-chapter13/read.txt">
+    <entry file="file://$PROJECT_DIR$/shiro-example-chapter13/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1651,17 +1640,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-example-chapter14/read.txt">
+    <entry file="file://$PROJECT_DIR$/shiro-example-chapter14/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-example-chapter15-client/localhost.keystore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1669,13 +1652,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1486">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-example-chapter15-server/src/main/webapp/WEB-INF/deployerConfigContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1683,6 +1660,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5308">
           <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1690,6 +1668,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1855">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1697,6 +1676,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-285">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1711,6 +1691,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1368">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1767,6 +1748,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="12" column="21" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1837,6 +1819,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="61" column="37" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1874,6 +1857,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
           <caret line="133" column="30" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1881,6 +1865,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="819">
           <caret line="39" column="38" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1888,6 +1873,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1638">
           <caret line="93" column="28" selection-start-line="93" selection-start-column="28" selection-end-line="93" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1906,17 +1892,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-example-chapter15-server/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/shiro-example-chapter15-client/src/main/resources/spring-shiro-web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="205" column="0" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+        <state relative-caret-position="200">
+          <caret line="142" column="26" selection-start-line="142" selection-start-column="26" selection-end-line="142" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-example-chapter15-server/read.txt">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-example-chapter10/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-example-chapter5/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-example-chapter5/read.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-example-chapter2/read.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="8" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-example-chapter2/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-example-chapter3/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1928,17 +1964,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-example-chapter15-client/read.txt">
+    <entry file="file://$PROJECT_DIR$/shiro-example-chapter15-server/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="39" />
+        <state relative-caret-position="3954">
+          <caret line="205" column="0" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiro-example-chapter15-client/src/main/resources/spring-shiro-web.xml">
+    <entry file="file://$PROJECT_DIR$/shiro-example-chapter15-server/src/main/webapp/WEB-INF/deployerConfigContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="142" column="26" selection-start-line="142" selection-start-column="26" selection-end-line="142" selection-end-column="26" />
+        <state relative-caret-position="245">
+          <caret line="91" column="37" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-example-chapter15-server/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-example-chapter15-client/localhost.keystore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro-example-chapter15-client/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>

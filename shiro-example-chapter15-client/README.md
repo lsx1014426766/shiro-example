@@ -2,6 +2,9 @@
 Shiro 1.2开始提供了Jasig CAS单点登录的支持，单点登录主要用于多系统集成
 客户端：9080 9443端口
 服务端：8080 8443端口
+利用java提供的工具（keytool）来生成证书
+此证书 名字写成localhost
+
 
 [INFO] started o.m.j.p.JettyWebAppContext{/chapter15-client,file:/D:/b/shiro/shiro-example/shiro-example-chapter15-client/src/main/webapp/},file:/D:/b/shiro/shiro-example/shiro-example-chapter15-client/src/main/webapp/
 [INFO] Started SelectChannelConnector@0.0.0.0:9080
