@@ -26,6 +26,7 @@ public class IndexController {
     @Autowired
     private UserService userService;
 
+    //未登录之前会被过滤前往登录页，只有成功登录才会进入这里所以不会又user为空的情况
     @RequestMapping("/")
     public String index(@CurrentUser User loginUser, Model model) {
         Set<String> permissions = userService.findPermissions(loginUser.getUsername());

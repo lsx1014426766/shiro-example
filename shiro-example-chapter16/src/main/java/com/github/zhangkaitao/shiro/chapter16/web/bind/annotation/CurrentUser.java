@@ -23,6 +23,8 @@ import java.lang.annotation.*;
 /**
  * <p>绑定当前登录的用户</p>
  * <p>不同于@ModelAttribute</p>
+ * 注意：ModelAttribute将数据反映回显在视图上
+ *知识点：自定义注解
  *
  * @author Zhang Kaitao
  */

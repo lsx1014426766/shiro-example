@@ -8,6 +8,8 @@ import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.util.ByteSource;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
@@ -16,14 +18,15 @@ import org.springframework.beans.factory.annotation.Autowired;
  * <p>Version: 1.0
  */
 public class UserRealm extends AuthorizingRealm {
-
+    private Logger logger= LoggerFactory.getLogger(UserRealm.class);
     @Autowired
     private UserService userService;
 
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
-        String username = (String)principals.getPrimaryPrincipal();
 
+        String username = (String)principals.getPrimaryPrincipal();
+        logger.info("UserRealm.doGetAuthorizationInfo,username=" +username);
         SimpleAuthorizationInfo authorizationInfo = new SimpleAuthorizationInfo();
         authorizationInfo.setRoles(userService.findRoles(username));
         authorizationInfo.setStringPermissions(userService.findPermissions(username));
@@ -32,7 +35,7 @@ public class UserRealm extends AuthorizingRealm {
 
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token) throws AuthenticationException {
-
+        logger.info("UserRealm.doGetAuthenticationInfo");
         String username = (String)token.getPrincipal();
 
         User user = userService.findByUsername(username);
