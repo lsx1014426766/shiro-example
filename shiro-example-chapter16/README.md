@@ -180,3 +180,56 @@ struts的配置文件里是没有定义这个result的，所以就导致错误�
 这时只留下一份jar就解决问题了
 maven项目中，通过工具idea把project structure下的dependency删除不用的
 或者是把pom.xml引入的2个dependency javax-servlert-api,jsp-api注释掉
+
+springframwork提供的方法，判断一个迭代对象中是否包含某个元素
+CollectionUtils.contains(iterable.iterator(), element);
+
+使用springframework提供的方法 查询db
+BeanPropertyRowMapper映射查找的db字段
+这里还有个db中parent_id和实体类parentId转换的关系 应该是在spring的配置文件里处理的，暂时
+在哪里还不知道
+final String sql = "select id, name, parent_id, parent_ids, available from sys_organization";
+        return jdbcTemplate.query(sql, new BeanPropertyRowMapper(Organization));
+
+        这个地方，o.rootNode 在organization对象里面定义了一个isRootNode()方法
+        ，其实这里是因为返回的是boolean类型的，所以可以这样写，通过的方式还是get方法
+        即便没有这个属性，也可以调用这个方法
+        <c:forEach items="${organizationList}" var="o">
+                        { id:${o.id}, pId:${o.parentId}, name:"${o.name}", open:${o.rootNode}},
+                    </c:forEach>
+
+     spring form标签没有写action，直接使用请求时的action
+     <form:form id="form" method="post" commandName="child">
+     生成的form标签，是有action值的，值为跳转过来的那个action路径
+我们在使用表单标签库的时候直接使用而没有进行数据绑定是无法使用的
+
+这里的frames跳转到父框架再
+操作成功，<a href="javascript:parent.frames['tree'].location.reload();">点击刷新树</a>
+
+resource/list.jsp
+里面有树形结构的表格内容，关键是使用treetable插件
+在表格的tr上加上了id
+ <tr data-tt-id='${resource.id}' <c:if test="${not resource.rootNode}">data-tt-parent-id='${resource.parentId}'</c:if>>
+ 参考文档
+http://cshenger.lofter.com/post/29b2ce_b28794
+
+关于spring 的form标签下select的使用
+//type对应选中项的值（value值） items存放的是个map或是集合，调用item的info属性，即get方法，会得到值（显示值）
+ <form:select path="type" items="${types}" itemLabel="info"/>
+
+从controller像页面传值的几种方式：
+ @ModelAttribute("types")
+  model.addAttribute("menus", menus);
+页面上可以直接使用el表示式获取${}
+
+在jsp页面上引入自定义标签库
+<%@taglib prefix="zhangfn" uri="http://github.com/zhangkaitao/tags/zhang-functions" %>
+定义class类
+定义tld文件
+D:\b\shiro\shiro-example\shiro-example-chapter16\src\main\webapp\WEB-INF\tld\zhang-functions.tld
+  <input type="text" id="resourceName" name="resourceName"
+  value="${zhangfn:resourceNames(role.resourceIds)}" readonly>
+问题：为什么在web.xml中没有引入这个taglib，就可以直接拿来用
+在web.xml 中写的 是预加载,在项目启动时加载到内存中
+直接在页面中写,是在页面使用时引入进页面，这只是加载的时机不同
+  还有一些具体涉及到ztree api使用

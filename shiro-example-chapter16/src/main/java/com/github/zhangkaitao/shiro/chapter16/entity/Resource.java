@@ -96,6 +96,7 @@ public class Resource implements Serializable {
         this.available = available;
     }
 
+    //相當于get方法
     public boolean isRootNode() {
         return parentId == 0;
     }

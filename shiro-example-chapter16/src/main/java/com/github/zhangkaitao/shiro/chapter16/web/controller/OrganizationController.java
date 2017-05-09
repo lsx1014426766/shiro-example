@@ -24,12 +24,22 @@ public class OrganizationController {
     @Autowired
     private OrganizationService organizationService;
 
+    /**
+     * 进入organization首页，显示树图
+     * @param model
+     * @return
+     */
     @RequiresPermissions("organization:view")
     @RequestMapping(method = RequestMethod.GET)
     public String index(Model model) {
         return "organization/index";
     }
 
+    /**
+     * 用来获取树图显示的内容，在js中通过tree来展示
+     * @param model
+     * @return
+     */
     @RequiresPermissions("organization:view")
     @RequestMapping(value = "/tree", method = RequestMethod.GET)
     public String showTree(Model model) {

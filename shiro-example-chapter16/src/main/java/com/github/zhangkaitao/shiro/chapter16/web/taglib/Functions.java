@@ -15,6 +15,7 @@ import java.util.Collection;
  * <p>User: Zhang Kaitao
  * <p>Date: 14-2-15
  * <p>Version: 1.0
+ * 自己封装的一个工具类，用来获取组织，角色，资源的一些信息
  */
 public class Functions {
 

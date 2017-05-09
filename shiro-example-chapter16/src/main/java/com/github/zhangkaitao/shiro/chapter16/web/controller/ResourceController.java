@@ -24,6 +24,7 @@ public class ResourceController {
     @Autowired
     private ResourceService resourceService;
 
+    //在edit.jsp中直接通过el表达式获取
     @ModelAttribute("types")
     public Resource.ResourceType[] resourceTypes() {
         return Resource.ResourceType.values();
